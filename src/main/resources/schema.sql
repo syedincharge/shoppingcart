@@ -22,8 +22,8 @@ create table products (
 );
 
 create table shopping_cart (
-  id      int,
-  product_id   int,
+  id  int,
+  product_id  int,
   quantity  int,
   customer_id   int
 );
@@ -46,7 +46,14 @@ create table order_items (
 );
 
 create table product_types (
-  id    int,
+  id  int,
   type_name    VARCHAR(40)
+);
+
+create table favorites (
+   id  int,
+   user_id int,
+   product_id int
+
 );
 

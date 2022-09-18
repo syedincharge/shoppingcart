@@ -10,9 +10,11 @@ INSERT INTO countries (id, name) VALUES (8, 'GERMANY');
 INSERT INTO countries (id, name) VALUES (9, 'UK');
 
 INSERT INTO users (id, first_name, last_name, email, password, country_id) VALUES (1, 'Peter','Sotos','peter.sotos@tcs.com','test',1 );
+INSERT INTO users (id, first_name, last_name, email, password, country_id) VALUES (2, 'Jhon','Doe','jhon.doe@tcs.com','test',5 );
+INSERT INTO users (id, first_name, last_name, email, password, country_id) VALUES (3, 'Jose','Morales','jose.morales@tcs.com','test',8 );
 
 INSERT INTO product_types (id, type_name) VALUES (1, 't-shirt');
-INSERT INTO product_types (id, type_name) VALUES (2, 'nug');
+INSERT INTO product_types (id, type_name) VALUES (2, 'mug');
 INSERT INTO product_types (id, type_name) VALUES (3, 'hat');
 
 INSERT INTO products (id, sku, name, description, product_type, price) VALUES (1, 'KHU123', 'Castle Coffee Mug', 'A gorgeous mug featuring a castle', 2, 15.99);
